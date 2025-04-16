@@ -1,0 +1,8 @@
+POST http://localhost:8000/register
+Content-Type: application/json
+{
+    "email": "vijay@example.com",
+    "password": "pass123",
+    "preferences": ["AI", "Python"]
+}
+GET http://localhost:8000/content
