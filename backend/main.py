@@ -3,7 +3,7 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from fastapi import FastAPI, Depends, HTTPException
 from sqlalchemy.orm import Session
-from models import User, Content
+from models import  Job, User
 from database import get_db
 from model.recommender import recommend
 from schemas import UserCreate, UserLogin, PreferenceUpdate
@@ -68,9 +68,17 @@ async def update_preferences(
 @app.post("/login")
 async def login(user: UserLogin, db: Session = Depends(get_db)):
     user_in_db = db.query(User).filter(User.email == user.email).first()
-    if not user_in_db or not bcrypt.checkpw(user.password.encode('utf-8'), user_in_db.password.encode('utf-8')):
-        raise HTTPException(status_code=401, detail="Invalid credentials")
+    
+    # Check if the email exists
+    if not user_in_db:
+        raise HTTPException(status_code=401, detail="Email not found")
+    
+    # Check if the password matches
+    if not bcrypt.checkpw(user.password.encode('utf-8'), user_in_db.password.encode('utf-8')):
+        raise HTTPException(status_code=401, detail="Incorrect password")
+    
     return {"message": "Login successful"}
+
 
 
 class User(Base):

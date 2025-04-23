@@ -1,0 +1,11 @@
+Job ID,Job Title,Company,Location,Description,Skills,Salary,URL
+1,Software Engineer,TechCorp,"New York, NY","Develop and maintain software applications using Java and Python.","Java, Python, Software Development","$120,000",http://example.com/job1
+2,Data Scientist,DataCo,"San Francisco, CA","Analyze large datasets and build machine learning models.","Python, R, Machine Learning, SQL","$140,000",http://example.com/job2
+3,Full Stack Developer,WebSolutions,Remote,"Build web applications using React and Node.js.","React, Node.js, JavaScript","$110,000",http://example.com/job3
+4,Product Manager,ProductX,"Austin, TX","Manage product development and coordinate cross-functional teams.","Product Management, Agile, Leadership","$100,000",http://example.com/job4
+5,UX Designer,DesignLabs,"Seattle, WA","Design user interfaces for web and mobile applications.","UX Design, Figma, Wireframing","$90,000",http://example.com/job5
+6,Marketing Manager,MarketCo,"Chicago, IL","Oversee marketing campaigns and strategy for new product launches.","Marketing, SEO, Social Media Strategy","$95,000",http://example.com/job6
+7,Business Analyst,FinTech Ltd.,"Boston, MA","Analyze financial data and provide insights for business growth.","Excel, SQL, Business Intelligence","$105,000",http://example.com/job7
+8,Cloud Engineer,CloudTech,Remote,"Design and manage cloud infrastructure on AWS and Azure.","AWS, Azure, Cloud Computing","$130,000",http://example.com/job8
+9,DevOps Engineer,DevOpsWorks,"San Jose, CA","Automate and optimize infrastructure for continuous delivery.","Docker, Kubernetes, CI/CD","$125,000",http://example.com/job9
+10,IT Support Specialist,ITHelpdesk,"Miami, FL","Provide technical support to employees and troubleshoot issues.","IT Support, Networking, Troubleshooting","$70,000",http://example.com/job10

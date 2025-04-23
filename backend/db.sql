@@ -1,14 +1,19 @@
 USE content_app;
+DROP TABLE IF EXISTS users;
+DROP TABLE IF EXISTS jobs;
 CREATE TABLE users (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT PRIMARY KEY AUTO_INCREMENT,
     email VARCHAR(255) UNIQUE,
     password VARCHAR(255),
-    preferences JSON
+    preferences TEXT
 );
-CREATE TABLE content (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+CREATE TABLE jobs (
+    id INT PRIMARY KEY,
     title VARCHAR(255),
-    category VARCHAR(50),
+    company VARCHAR(255),
+    location VARCHAR(255),
     description TEXT,
+    skills TEXT,
+    salary VARCHAR(50),
     url VARCHAR(255)
 );
