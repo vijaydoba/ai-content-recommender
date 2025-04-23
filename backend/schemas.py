@@ -1,13 +1,13 @@
-from pydantic import BaseModel
-from typing import List
+from pydantic import BaseModel, EmailStr
+from typing import List, Optional
 
 class UserCreate(BaseModel):
     email: str
     password: str
-    preferences: List[str]
+    preferences: Optional[List[str]] = []
 
 class UserLogin(BaseModel):
-    email: str
+    email: str  # Ensure email is properly validated
     password: str
 
 class PreferenceUpdate(BaseModel):

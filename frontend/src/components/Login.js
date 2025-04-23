@@ -10,28 +10,50 @@ function Login() {
   const navigate = useNavigate(); // Changed from useHistory
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
-    try {
-      const endpoint = isSignup ? "/register" : "/login";
-      const response = await axios.post(
-        `http://localhost:8000${endpoint}`,
-        {
-          email,
-          password,
-          preferences: isSignup ? [] : undefined,
+  e.preventDefault();
+
+  // Check if email or password is empty before submitting
+  if (!email || !password) {
+    setError("Email and password are required.");
+    return;
+  }
+
+  console.log("Email:", email, "Password:", password);  // Debug log to check values
+
+  try {
+    // Set the endpoint to either /register or /login depending on the form type
+    const endpoint = isSignup ? "/register" : "/login";
+
+    // Send POST request with the necessary data
+    const response = await axios.post(
+      `http://localhost:8000${endpoint}`,
+      {
+        email,
+        password,
+      },
+      {
+        headers: {
+          "Content-Type": "application/json",
         },
-        {
-          headers: {
-            "Content-Type": "application/json",
-          },
-        }
-      );      
-      localStorage.setItem("userEmail", email);
-      navigate("/preferences"); // Changed from history.push
-    } catch (err) {
-      setError(err.response?.data?.detail || "Error occurred");
-    }
-  };
+      }
+    );
+
+    // Store the user's email in local storage and redirect to the preferences page
+    localStorage.setItem("userEmail", email);
+    navigate("/preferences");
+  } catch (err) {
+    console.log(err);  // Debug to see the full error response from backend
+
+    // Check if 'detail' is an array or not
+    const errorMessage = err.response?.data?.detail
+      ? err.response.data.detail
+      : "An error occurred."; // Directly take the error message if it's not an array
+
+    setError(errorMessage);
+  }
+};
+
+  
 
   return (
     <div className="max-w-md mx-auto mt-8">
