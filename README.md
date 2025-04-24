@@ -65,7 +65,7 @@ ai-content-recommender/
     cd ai-content-recommender
 
 2. **Set Up the Back-End**:
-```bash
+```
     cd backend
     python3 -m venv venv
     source venv/bin/activate  # On Windows: venv\Scripts\activate
