@@ -4,7 +4,8 @@ A full-stack web application that provides personalized job recommendations base
 
 ![App Screenshot](screenshot/preference.png)
 
-![App Screenshot]("screenshot/Screenshot 2025-04-24 at 18.08.53.png")
+<img src="screenshot/preference.png" alt="App Screenshot" width="600" height="400"/>
+
 
 ## Table of Contents
 - [Features](#features)
@@ -102,10 +103,10 @@ ai-content-recommender/
 ## Screenshots 
 
 **Login Page**
-![Project Screenshot: Preferences Page](/Users/vijayrathod/Desktop/project ai/ai-content-recommender/screenshot/Screenshot 2025-04-24 at 18.07.44.png)
+![Project Screenshot: Preferences Page](screenshot/login.png)
 **Registration Page**
-![Project Screenshot: Preferences Page](/Users/vijayrathod/Desktop/project ai/ai-content-recommender/screenshot/Screenshot 2025-04-24 at 18.08.00.png)
+![Project Screenshot: Preferences Page](screenshot/register.png)
 **Preferences Page**
-![Project Screenshot: Preferences Page](/Users/vijayrathod/Desktop/project ai/ai-content-recommender/screenshot/Screenshot 2025-04-24 at 18.08.53.png)
+![Project Screenshot: Preferences Page](screenshot/preferences.png)
 **Recommendations Page**
-![Project Screenshot: Preferences Page](/Users/vijayrathod/Desktop/project ai/ai-content-recommender/screenshot/Screenshot 2025-04-24 at 18.09.45.png)
+![Project Screenshot: Preferences Page](screenshot/recommender.png)
