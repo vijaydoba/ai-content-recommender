@@ -101,10 +101,16 @@ ai-content-recommender/
 ## Screenshots 
 
 **Login Page**
-<img src="screenshot/login.png" alt="App Screenshot" width="600" height="400"/>
+
+    <img src="screenshot/login.png" alt="App Screenshot" width="600" height="400"/>
+
 **Registration Page**
-<img src="screenshot/register.png" alt="App Screenshot" width="600" height="400"/>
+
+    <img src="screenshot/register.png" alt="App Screenshot" width="600" height="400"/>
+    
 **Preferences Page**
+
 <img src="screenshot/preferences.png" alt="App Screenshot" width="600" height="400"/>
+
 **Recommendations Page**
 <img src="screenshot/recommender.png" alt="App Screenshot" width="600" height="400"/>
