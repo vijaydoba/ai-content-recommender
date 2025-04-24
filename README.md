@@ -2,8 +2,6 @@
 
 A full-stack web application that provides personalized job recommendations based on user preferences, built with **FastAPI**, **React**, **Tailwind CSS**, and **SQLite**. Users can register, log in, select interests (e.g., AI & Data Science, Programming), and receive tailored job suggestions using a TF-IDF-based recommendation system.
 
-![App Screenshot](screenshot/preference.png)
-
 <img src="screenshot/preference.png" alt="App Screenshot" width="600" height="400"/>
 
 
@@ -103,10 +101,10 @@ ai-content-recommender/
 ## Screenshots 
 
 **Login Page**
-![Project Screenshot: Preferences Page](screenshot/login.png)
+<img src="screenshot/login.png" alt="App Screenshot" width="600" height="400"/>
 **Registration Page**
-![Project Screenshot: Preferences Page](screenshot/register.png)
+<img src="screenshot/register.png" alt="App Screenshot" width="600" height="400"/>
 **Preferences Page**
-![Project Screenshot: Preferences Page](screenshot/preferences.png)
+<img src="screenshot/preferences.png" alt="App Screenshot" width="600" height="400"/>
 **Recommendations Page**
-![Project Screenshot: Preferences Page](screenshot/recommender.png)
+<img src="screenshot/recommender.png" alt="App Screenshot" width="600" height="400"/>
