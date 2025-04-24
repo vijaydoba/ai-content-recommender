@@ -2,7 +2,7 @@
 
 A full-stack web application that provides personalized job recommendations based on user preferences, built with **FastAPI**, **React**, **Tailwind CSS**, and **SQLite**. Users can register, log in, select interests (e.g., AI & Data Science, Programming), and receive tailored job suggestions using a TF-IDF-based recommendation system.
 
-![Project Screenshot: Preferences Page](screenshots/preferences.png)
+![Project Screenshot: Preferences Page](/Users/vijayrathod/Desktop/project ai/ai-content-recommender/screenshot/Screenshot 2025-04-24 at 18.08.53.png)
 
 ## Table of Contents
 - [Features](#features)
@@ -87,3 +87,23 @@ ai-content-recommender/
     cd model
     python load_data.py
 ```    
+    - Run `recommender.py` to train the recommendation model:
+
+```
+    python recommender.py
+```
+
+5. **Access the App**:
+    - Front-End: http://localhost:3000
+    - Back-End API: http://localhost:8000
+
+## Screenshots 
+
+**Login Page**
+![Project Screenshot: Preferences Page](/Users/vijayrathod/Desktop/project ai/ai-content-recommender/screenshot/Screenshot 2025-04-24 at 18.07.44.png)
+**Registration Page**
+![Project Screenshot: Preferences Page](/Users/vijayrathod/Desktop/project ai/ai-content-recommender/screenshot/Screenshot 2025-04-24 at 18.08.00.png)
+**Preferences Page**
+![Project Screenshot: Preferences Page](/Users/vijayrathod/Desktop/project ai/ai-content-recommender/screenshot/Screenshot 2025-04-24 at 18.08.53.png)
+**Recommendations Page**
+![Project Screenshot: Preferences Page](/Users/vijayrathod/Desktop/project ai/ai-content-recommender/screenshot/Screenshot 2025-04-24 at 18.09.45.png)
