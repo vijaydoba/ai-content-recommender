@@ -54,7 +54,8 @@ ai-content-recommender/
 │   ├── load_data.py            # Script to preprocess dataset and generate initial model
 │   ├── recommender.py          # TF-IDF recommendation logic
 │   └── job_recommender_model.pkl  # Trained model
-└── README.md`
+└── README.md
+```
 
 
 ## Setup Instructions
@@ -64,7 +65,7 @@ ai-content-recommender/
     cd ai-content-recommender
 
 2. **Set Up the Back-End**:
-
+```
     cd backend
     python3 -m venv venv
     source venv/bin/activate  # On Windows: venv\Scripts\activate
@@ -72,7 +73,7 @@ ai-content-recommender/
     uvicorn main:app --reload
 
 3. **Set Up the Front-End**:
-
+```
     cd ../frontend
     npm install
     npm start
@@ -80,6 +81,6 @@ ai-content-recommender/
 4. **Prepare the Dataset and Model**:
     Ensure jobs.csv is in the model/ directory.
     Run load_data.py to preprocess the dataset and generate the initial job_recommender_model.pkl:    
-
+```
     cd model
     python load_data.py
