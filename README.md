@@ -4,6 +4,8 @@ A full-stack web application that provides personalized job recommendations base
 
 ![App Screenshot](screenshot/Screenshot 2025-04-24 at 18.08.53.png)
 
+![App Screenshot]("screenshot/Screenshot 2025-04-24 at 18.08.53.png")
+
 ## Table of Contents
 - [Features](#features)
 - [Tech Stack](#tech-stack)
