@@ -78,10 +78,11 @@ ai-content-recommender/
     cd ../frontend
     npm install
     npm start
-
+```
 4. **Prepare the Dataset and Model**:
     Ensure jobs.csv is in the model/ directory.
     Run load_data.py to preprocess the dataset and generate the initial job_recommender_model.pkl:    
 ```
     cd model
     python load_data.py
+```    
