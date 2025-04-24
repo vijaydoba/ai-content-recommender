@@ -33,6 +33,7 @@ A full-stack web application that provides personalized job recommendations base
 
 ## Project Structure
 
+```
 ai-content-recommender/
 ├── backend/                    # FastAPI back-end
 │   ├── main.py                 # API routes (register, login, preferences, recommendations)
@@ -53,7 +54,7 @@ ai-content-recommender/
 │   ├── load_data.py            # Script to preprocess dataset and generate initial model
 │   ├── recommender.py          # TF-IDF recommendation logic
 │   └── job_recommender_model.pkl  # Trained model
-└── README.md
+└── README.md`
 
 
 ## Setup Instructions
