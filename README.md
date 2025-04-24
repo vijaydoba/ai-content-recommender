@@ -2,7 +2,7 @@
 
 A full-stack web application that provides personalized job recommendations based on user preferences, built with **FastAPI**, **React**, **Tailwind CSS**, and **SQLite**. Users can register, log in, select interests (e.g., AI & Data Science, Programming), and receive tailored job suggestions using a TF-IDF-based recommendation system.
 
-![App Screenshot](screenshot/Screenshot 2025-04-24 at 18.08.53.png)
+![App Screenshot](screenshot/preference.png)
 
 ![App Screenshot]("screenshot/Screenshot 2025-04-24 at 18.08.53.png")
 
